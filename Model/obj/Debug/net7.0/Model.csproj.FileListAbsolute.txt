@@ -1,0 +1,14 @@
+C:\programming\OnlineShop\Model\bin\Debug\net7.0\Model.deps.json
+C:\programming\OnlineShop\Model\bin\Debug\net7.0\Model.dll
+C:\programming\OnlineShop\Model\bin\Debug\net7.0\Model.pdb
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.csproj.AssemblyReference.cache
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.AssemblyInfoInputs.cache
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.AssemblyInfo.cs
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.csproj.CoreCompileInputs.cache
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.dll
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\refint\Model.dll
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.pdb
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\ref\Model.dll
+C:\programming\OnlineShop\Model\bin\Debug\net7.0\Model.runtimeconfig.json
+C:\programming\OnlineShop\Model\obj\Debug\net7.0\Model.genruntimeconfig.cache

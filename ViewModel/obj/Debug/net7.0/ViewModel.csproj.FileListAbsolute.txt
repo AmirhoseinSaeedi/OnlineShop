@@ -1,0 +1,15 @@
+C:\programming\OnlineShop\ViewModel\bin\Debug\net7.0\ViewModel.deps.json
+C:\programming\OnlineShop\ViewModel\bin\Debug\net7.0\ViewModel.dll
+C:\programming\OnlineShop\ViewModel\bin\Debug\net7.0\ViewModel.pdb
+C:\programming\OnlineShop\ViewModel\bin\Debug\net7.0\Model.dll
+C:\programming\OnlineShop\ViewModel\bin\Debug\net7.0\Model.pdb
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.csproj.AssemblyReference.cache
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.AssemblyInfoInputs.cache
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.AssemblyInfo.cs
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.csproj.CoreCompileInputs.cache
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.csproj.CopyComplete
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.dll
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\refint\ViewModel.dll
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ViewModel.pdb
+C:\programming\OnlineShop\ViewModel\obj\Debug\net7.0\ref\ViewModel.dll
