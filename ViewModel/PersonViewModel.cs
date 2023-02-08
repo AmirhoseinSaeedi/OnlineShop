@@ -11,6 +11,7 @@ namespace ViewModel
 {
     public class PersonViewModel
     {
+
         private readonly PersonService _personService;
 
         public PersonViewModel()

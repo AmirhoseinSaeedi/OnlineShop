@@ -3460,24 +3460,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amirh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\programming\\OnlineShop\\View\\View.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\OnlineShop\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "C:\\programming\\OnlineShop\\View\\View.csproj",
-      "packagesPath": "C:\\Users\\amirh\\.nuget\\packages\\",
-      "outputPath": "C:\\programming\\OnlineShop\\View\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Source\\Repos\\OnlineShop\\View\\View.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Source\\Repos\\OnlineShop\\View\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\amirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3485,15 +3480,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\programming\\OnlineShop\\ViewModel\\ViewModel.csproj": {
-              "projectPath": "C:\\programming\\OnlineShop\\ViewModel\\ViewModel.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\OnlineShop\\ViewModel\\ViewModel.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\OnlineShop\\ViewModel\\ViewModel.csproj"
             }
           }
         }
@@ -3534,7 +3528,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
