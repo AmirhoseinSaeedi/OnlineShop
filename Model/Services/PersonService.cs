@@ -49,13 +49,13 @@ namespace Model.Services
             }
         }
 
-        public void Delete(int id)
+        public void Delete(Person person)
         {
             using(var context = new OnlineShopDbContex())
             {
                 try
                 {
-                    var people = context.Person.Where(p => p.Id == id).First();
+                    var people = context.Person.Where(p => p.Id == person.Id).First();
                     context.Person.Remove(people);
                     context.SaveChanges();
                 }

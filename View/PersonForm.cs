@@ -43,7 +43,11 @@ namespace View
         {
             string input = personTxtId.Text.ToString();
             int id = Int32.Parse(input);
-            _personViewModel.Remove(id);
+            var personDeleteDto = new PersonDeleteDto()
+            {
+                Id = id,
+            };
+            _personViewModel.Remove(personDeleteDto);
             MessageBox.Show("person deleted");
         }
     }
