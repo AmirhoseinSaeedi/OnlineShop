@@ -23,5 +23,12 @@ namespace View
             PersonForm personForm= new PersonForm();
             personForm.Show();
         }
+
+        private void ProductBtn_Click(object sender, EventArgs e)
+        {
+            this.Visible= false;
+            ProductForm productForm= new ProductForm();
+            productForm.Show();
+        }
     }
 }

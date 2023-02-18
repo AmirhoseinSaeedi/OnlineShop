@@ -50,6 +50,7 @@
             this.ProductBtn.TabIndex = 1;
             this.ProductBtn.Text = "Product";
             this.ProductBtn.UseVisualStyleBackColor = true;
+            this.ProductBtn.Click += new System.EventHandler(this.ProductBtn_Click);
             // 
             // MainForm
             // 

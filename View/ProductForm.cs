@@ -29,5 +29,12 @@ namespace View
         {
             productDvg.DataSource= _productViewModel.FillGrid();
         }
+
+        private void ProductBackBtn_Click(object sender, EventArgs e)
+        {
+            this.Visible= false;
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+        }
     }
 }
