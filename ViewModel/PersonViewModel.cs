@@ -41,5 +41,16 @@ namespace ViewModel
             };
             _personService.Delete(person);
         }
+
+        public void Update(PersonUpdateDto personUpdateDto)
+        {
+            var person = new Person()
+            {
+                Id = personUpdateDto.Id,
+                FirstName = personUpdateDto.NewFirstName,
+                LastName = personUpdateDto.NewLastName,
+            };
+            _personService.Update(person);
+        }
     }
 }

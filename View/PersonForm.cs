@@ -50,5 +50,25 @@ namespace View
             _personViewModel.Remove(personDeleteDto);
             MessageBox.Show("person deleted");
         }
+
+        private void personBtnUpdate_Click(object sender, EventArgs e)
+        {
+            var id = Int32.Parse(personUpdateTextBoxId.Text.ToString());
+            var firstName = personUpdateTextBoxNewFirstName.Text.ToString();
+            var lastName = personUpdateTextBoxNewLastName.Text.ToString();
+            var personUpdateDto = new PersonUpdateDto()
+            {
+                Id = id,
+                NewFirstName = firstName,
+                NewLastName = lastName,
+            };
+            _personViewModel.Update(personUpdateDto);
+            MessageBox.Show("Updated succesfully");
+        }
+
+        private void personUpdateBtnId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,9 +42,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.labe = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.personUpdateBtnId = new System.Windows.Forms.TextBox();
-            this.personBtnNewFirstName = new System.Windows.Forms.TextBox();
-            this.personBtnNewLastName = new System.Windows.Forms.TextBox();
+            this.personUpdateTextBoxId = new System.Windows.Forms.TextBox();
+            this.personUpdateTextBoxNewFirstName = new System.Windows.Forms.TextBox();
+            this.personUpdateTextBoxNewLastName = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPerson)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,6 +86,7 @@
             this.personBtnUpdate.TabIndex = 3;
             this.personBtnUpdate.Text = "Update";
             this.personBtnUpdate.UseVisualStyleBackColor = true;
+            this.personBtnUpdate.Click += new System.EventHandler(this.personBtnUpdate_Click);
             // 
             // personLblFirstName
             // 
@@ -173,35 +174,36 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Id";
             // 
-            // personUpdateBtnId
+            // personUpdateTextBoxId
             // 
-            this.personUpdateBtnId.Location = new System.Drawing.Point(92, 246);
-            this.personUpdateBtnId.Name = "personUpdateBtnId";
-            this.personUpdateBtnId.Size = new System.Drawing.Size(125, 27);
-            this.personUpdateBtnId.TabIndex = 14;
+            this.personUpdateTextBoxId.Location = new System.Drawing.Point(92, 246);
+            this.personUpdateTextBoxId.Name = "personUpdateTextBoxId";
+            this.personUpdateTextBoxId.Size = new System.Drawing.Size(125, 27);
+            this.personUpdateTextBoxId.TabIndex = 14;
+            this.personUpdateTextBoxId.TextChanged += new System.EventHandler(this.personUpdateBtnId_TextChanged);
             // 
-            // personBtnNewFirstName
+            // personUpdateTextBoxNewFirstName
             // 
-            this.personBtnNewFirstName.Location = new System.Drawing.Point(92, 301);
-            this.personBtnNewFirstName.Name = "personBtnNewFirstName";
-            this.personBtnNewFirstName.Size = new System.Drawing.Size(125, 27);
-            this.personBtnNewFirstName.TabIndex = 15;
+            this.personUpdateTextBoxNewFirstName.Location = new System.Drawing.Point(92, 301);
+            this.personUpdateTextBoxNewFirstName.Name = "personUpdateTextBoxNewFirstName";
+            this.personUpdateTextBoxNewFirstName.Size = new System.Drawing.Size(125, 27);
+            this.personUpdateTextBoxNewFirstName.TabIndex = 15;
             // 
-            // personBtnNewLastName
+            // personUpdateTextBoxNewLastName
             // 
-            this.personBtnNewLastName.Location = new System.Drawing.Point(92, 357);
-            this.personBtnNewLastName.Name = "personBtnNewLastName";
-            this.personBtnNewLastName.Size = new System.Drawing.Size(125, 27);
-            this.personBtnNewLastName.TabIndex = 16;
+            this.personUpdateTextBoxNewLastName.Location = new System.Drawing.Point(92, 357);
+            this.personUpdateTextBoxNewLastName.Name = "personUpdateTextBoxNewLastName";
+            this.personUpdateTextBoxNewLastName.Size = new System.Drawing.Size(125, 27);
+            this.personUpdateTextBoxNewLastName.TabIndex = 16;
             // 
             // PersonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.personBtnNewLastName);
-            this.Controls.Add(this.personBtnNewFirstName);
-            this.Controls.Add(this.personUpdateBtnId);
+            this.Controls.Add(this.personUpdateTextBoxNewLastName);
+            this.Controls.Add(this.personUpdateTextBoxNewFirstName);
+            this.Controls.Add(this.personUpdateTextBoxId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.labe);
             this.Controls.Add(this.label1);
@@ -240,8 +242,8 @@
         private Label label1;
         private Label labe;
         private Label label3;
-        private TextBox personUpdateBtnId;
-        private TextBox personBtnNewFirstName;
-        private TextBox personBtnNewLastName;
+        private TextBox personUpdateTextBoxId;
+        private TextBox personUpdateTextBoxNewFirstName;
+        private TextBox personUpdateTextBoxNewLastName;
     }
 }
