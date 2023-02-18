@@ -1,9 +1,11 @@
-﻿using Model.Services;
+﻿using Model.Dtos;
+using Model.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ViewModel.Dtos;
 
 namespace ViewModel
 {
@@ -19,6 +21,16 @@ namespace ViewModel
         public dynamic FillGrid()
         {
             return _productService.Select();
+        }
+
+        public void save (ProductSaveDto productSaveDto)
+        {
+            var product = new Product()
+            {
+                Title = productSaveDto.Title,
+                UnitPrice = productSaveDto.UnitPrice,
+            };
+            _productService.Insert(product);
         }
     }
 }

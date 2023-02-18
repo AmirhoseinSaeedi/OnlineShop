@@ -31,5 +31,27 @@ namespace Model.Services
                 }
             }
         }
+
+        public void Insert(Product product)
+        {
+            using (var context = new OnlineShopDbContex())
+            {
+                try
+                {
+                    context.products.Add(product);
+                    context.SaveChanges();
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+                finally { 
+                    if(context != null) {
+                        context.Dispose();
+                    }
+                }
+            }
+        }
     }
 }
