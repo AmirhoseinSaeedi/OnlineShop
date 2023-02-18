@@ -92,7 +92,10 @@ namespace Model.Services
                 }
                 finally
                 {
-                    context.Dispose();
+                    if(context != null)
+                    {
+                        context.Dispose();
+                    }
                 }
             }
         }
