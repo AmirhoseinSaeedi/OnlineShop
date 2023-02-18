@@ -70,5 +70,12 @@ namespace View
         {
 
         }
+
+        private void PersonBackBtn_Click(object sender, EventArgs e)
+        {
+            this.Visible= false;
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+        }
     }
 }

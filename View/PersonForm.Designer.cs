@@ -45,12 +45,13 @@
             this.personUpdateTextBoxId = new System.Windows.Forms.TextBox();
             this.personUpdateTextBoxNewFirstName = new System.Windows.Forms.TextBox();
             this.personUpdateTextBoxNewLastName = new System.Windows.Forms.TextBox();
+            this.PersonBackBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPerson)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(560, 193);
+            this.btnRefresh.Location = new System.Drawing.Point(539, 193);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(94, 29);
             this.btnRefresh.TabIndex = 0;
@@ -70,7 +71,7 @@
             // 
             // personBtnDelete
             // 
-            this.personBtnDelete.Location = new System.Drawing.Point(560, 12);
+            this.personBtnDelete.Location = new System.Drawing.Point(539, 12);
             this.personBtnDelete.Name = "personBtnDelete";
             this.personBtnDelete.Size = new System.Drawing.Size(94, 29);
             this.personBtnDelete.TabIndex = 2;
@@ -123,8 +124,10 @@
             // 
             // dgvPerson
             // 
+            this.dgvPerson.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.dgvPerson.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPerson.Location = new System.Drawing.Point(422, 228);
+            this.dgvPerson.GridColor = System.Drawing.SystemColors.ActiveBorder;
+            this.dgvPerson.Location = new System.Drawing.Point(409, 228);
             this.dgvPerson.Name = "dgvPerson";
             this.dgvPerson.RowHeadersWidth = 51;
             this.dgvPerson.RowTemplate.Height = 29;
@@ -133,7 +136,7 @@
             // 
             // personTxtId
             // 
-            this.personTxtId.Location = new System.Drawing.Point(560, 76);
+            this.personTxtId.Location = new System.Drawing.Point(539, 76);
             this.personTxtId.Name = "personTxtId";
             this.personTxtId.Size = new System.Drawing.Size(125, 27);
             this.personTxtId.TabIndex = 9;
@@ -141,7 +144,7 @@
             // lblll
             // 
             this.lblll.AutoSize = true;
-            this.lblll.Location = new System.Drawing.Point(502, 79);
+            this.lblll.Location = new System.Drawing.Point(499, 79);
             this.lblll.Name = "lblll";
             this.lblll.Size = new System.Drawing.Size(22, 20);
             this.lblll.TabIndex = 10;
@@ -196,11 +199,23 @@
             this.personUpdateTextBoxNewLastName.Size = new System.Drawing.Size(125, 27);
             this.personUpdateTextBoxNewLastName.TabIndex = 16;
             // 
+            // PersonBackBtn
+            // 
+            this.PersonBackBtn.Location = new System.Drawing.Point(12, 409);
+            this.PersonBackBtn.Name = "PersonBackBtn";
+            this.PersonBackBtn.Size = new System.Drawing.Size(94, 29);
+            this.PersonBackBtn.TabIndex = 17;
+            this.PersonBackBtn.Text = "Back";
+            this.PersonBackBtn.UseVisualStyleBackColor = true;
+            this.PersonBackBtn.Click += new System.EventHandler(this.PersonBackBtn_Click);
+            // 
             // PersonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PersonBackBtn);
             this.Controls.Add(this.personUpdateTextBoxNewLastName);
             this.Controls.Add(this.personUpdateTextBoxNewFirstName);
             this.Controls.Add(this.personUpdateTextBoxId);
@@ -245,5 +260,6 @@
         private TextBox personUpdateTextBoxId;
         private TextBox personUpdateTextBoxNewFirstName;
         private TextBox personUpdateTextBoxNewLastName;
+        private Button PersonBackBtn;
     }
 }
