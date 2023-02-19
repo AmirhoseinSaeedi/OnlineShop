@@ -23,7 +23,7 @@ namespace ViewModel
             return _productService.Select();
         }
 
-        public void save (ProductSaveDto productSaveDto)
+        public void Save (ProductSaveDto productSaveDto)
         {
             var product = new Product()
             {
@@ -33,13 +33,24 @@ namespace ViewModel
             _productService.Insert(product);
         }
 
-        public void remove (ProductDeleteDto productDeleteDto)
+        public void Remove (ProductDeleteDto productDeleteDto)
         {
             var product = new Product()
             {
                 Id = productDeleteDto.Id,
             };
             _productService.Delete(product);
+        }
+
+        public void Update(ProductUpdateDto productUpdateDto)
+        {
+            var product = new Product()
+            {
+                Id = productUpdateDto.Id,
+                Title = productUpdateDto.Title,
+                UnitPrice = productUpdateDto.UnitPrice,
+            };
+            _productService.Update(product);
         }
     }
 }

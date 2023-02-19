@@ -28,7 +28,7 @@ namespace View
                 Title = ProductTitleTxt.Text.ToString(),
                 UnitPrice = Int32.Parse(ProductUnitPriceTxt.Text.ToString()),
             };
-            _productViewModel.save(productSaveDto);
+            _productViewModel.Save(productSaveDto);
             MessageBox.Show("Save Succesfully");
         }
 
@@ -51,8 +51,19 @@ namespace View
             {
                 Id = id,
             };
-            _productViewModel.remove(productDeleteDto);
+            _productViewModel.Remove(productDeleteDto);
             MessageBox.Show("Deleted Successfully");
+        }
+
+        private void ProductUpdateBtn_Click(object sender, EventArgs e)
+        {
+            var productUpdateDto = new ProductUpdateDto()
+            {
+                Id = Int32.Parse(ProductNewIdTxt.Text.ToString()),
+                Title = ProductNewTitleTxt.Text.ToString(),
+                UnitPrice = Int32.Parse(ProductNewUnitPriceTxt.Text.ToString()),
+            };
+            _productViewModel.Update(productUpdateDto);
         }
     }
 }

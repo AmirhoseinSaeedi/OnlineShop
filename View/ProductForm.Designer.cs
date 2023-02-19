@@ -88,6 +88,7 @@
             this.ProductUpdateBtn.TabIndex = 3;
             this.ProductUpdateBtn.Text = "Update";
             this.ProductUpdateBtn.UseVisualStyleBackColor = true;
+            this.ProductUpdateBtn.Click += new System.EventHandler(this.ProductUpdateBtn_Click);
             // 
             // ProductDeleteBtn
             // 
