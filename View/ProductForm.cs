@@ -64,6 +64,7 @@ namespace View
                 UnitPrice = Int32.Parse(ProductNewUnitPriceTxt.Text.ToString()),
             };
             _productViewModel.Update(productUpdateDto);
+            MessageBox.Show("Updated succesfully!");
         }
     }
 }
