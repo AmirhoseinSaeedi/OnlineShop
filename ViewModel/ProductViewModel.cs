@@ -32,5 +32,14 @@ namespace ViewModel
             };
             _productService.Insert(product);
         }
+
+        public void remove (ProductDeleteDto productDeleteDto)
+        {
+            var product = new Product()
+            {
+                Id = productDeleteDto.Id,
+            };
+            _productService.Delete(product);
+        }
     }
 }

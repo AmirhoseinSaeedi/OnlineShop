@@ -43,5 +43,16 @@ namespace View
             MainForm mainForm = new MainForm();
             mainForm.Show();
         }
+
+        private void ProductDeleteBtn_Click(object sender, EventArgs e)
+        {
+            int id = Int32.Parse(ProductDeletIdTxt.Text.ToString());
+            var productDeleteDto = new ProductDeleteDto()
+            {
+                Id = id,
+            };
+            _productViewModel.remove(productDeleteDto);
+            MessageBox.Show("Deleted Successfully");
+        }
     }
 }

@@ -53,5 +53,30 @@ namespace Model.Services
                 }
             }
         }
+
+        public void Delete(Product product)
+        {
+            using(var context = new OnlineShopDbContex())
+            {
+                try
+                {
+                    var manufacture = context.products.Where(m => m.Id == product.Id).First();
+                    context.products.Remove(manufacture);
+                    context.SaveChanges();
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+                finally
+                {
+                    if(context != null)
+                    {
+                        context.Dispose();
+                    }
+                }
+            }
+        }
     }
 }

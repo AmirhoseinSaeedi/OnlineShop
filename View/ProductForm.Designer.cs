@@ -97,6 +97,7 @@
             this.ProductDeleteBtn.TabIndex = 4;
             this.ProductDeleteBtn.Text = "Delete";
             this.ProductDeleteBtn.UseVisualStyleBackColor = true;
+            this.ProductDeleteBtn.Click += new System.EventHandler(this.ProductDeleteBtn_Click);
             // 
             // ProductUnitPriceTxt
             // 
