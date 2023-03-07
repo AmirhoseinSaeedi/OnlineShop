@@ -30,6 +30,7 @@
         {
             this.PersonBtn = new System.Windows.Forms.Button();
             this.ProductBtn = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // PersonBtn
@@ -52,17 +53,28 @@
             this.ProductBtn.UseVisualStyleBackColor = true;
             this.ProductBtn.Click += new System.EventHandler(this.ProductBtn_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.textBox1.Location = new System.Drawing.Point(174, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(164, 27);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = " Welcom to application";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(529, 273);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ProductBtn);
             this.Controls.Add(this.PersonBtn);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -70,5 +82,6 @@
 
         private Button PersonBtn;
         private Button ProductBtn;
+        private TextBox textBox1;
     }
 }

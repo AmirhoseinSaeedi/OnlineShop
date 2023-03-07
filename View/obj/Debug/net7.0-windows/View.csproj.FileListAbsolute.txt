@@ -62,3 +62,4 @@ C:\programming\OnlineShop\View\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
 C:\programming\OnlineShop\View\obj\Debug\net7.0-windows\View.ProductForm.resources
 C:\programming\OnlineShop\View\obj\Debug\net7.0-windows\View.PersonForm.resources
 C:\programming\OnlineShop\View\obj\Debug\net7.0-windows\View.MainForm.resources
+C:\programming\OnlineShop\View\obj\Debug\net7.0-windows\View.PersonsForm.resources

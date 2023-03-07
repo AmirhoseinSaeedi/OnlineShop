@@ -20,8 +20,8 @@ namespace View
         private void PersonBtn_Click(object sender, EventArgs e)
         {
             this.Visible= false;
-            PersonForm personForm= new PersonForm();
-            personForm.Show();
+            PersonsForm personsForm= new PersonsForm();
+            personsForm.Show();
         }
 
         private void ProductBtn_Click(object sender, EventArgs e)
