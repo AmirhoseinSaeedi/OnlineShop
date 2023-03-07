@@ -27,8 +27,8 @@ namespace View
         private void ProductBtn_Click(object sender, EventArgs e)
         {
             this.Visible= false;
-            ProductForm productForm= new ProductForm();
-            productForm.Show();
+            ProductsForm productsForm= new ProductsForm();
+            productsForm.Show();
         }
     }
 }
